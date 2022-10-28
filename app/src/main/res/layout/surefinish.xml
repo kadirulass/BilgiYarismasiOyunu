@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/btn_style">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Süreniz Sona Erdi!"/>
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="192dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/saat" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#FF0000"
+            android:textSize="18dp"
+            android:text="Kazandığınız Para :" />
+
+        <Button
+            android:id="@+id/btn_surepara"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text=""
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/btn_paraEkle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_mavi"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Ana Sayfa"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

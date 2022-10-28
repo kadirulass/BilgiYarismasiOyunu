@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491003216492",
+    "project_id": "sorular-d4e57",
+    "storage_bucket": "sorular-d4e57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491003216492:android:3d78c5df59a0c6417b8e49",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491003216492-mhh6a3fk7qf0d3lcm8otm9fukchrn62n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWULc8-5fVbcrZyPc6qftomVY-dKqlT50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491003216492-mhh6a3fk7qf0d3lcm8otm9fukchrn62n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

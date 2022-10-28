@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Para Bizde Karar Sizde</string>
+    <string name="succesful">EVET</string>
+    <string name="error">HAYIR</string>
+    <string name="cevap">cevap</string>
+    <string name="kod">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

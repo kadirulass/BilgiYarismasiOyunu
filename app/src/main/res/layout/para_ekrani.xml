@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="630dp"
+        android:gravity="bottom|center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="500 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="1.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="2.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="3.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="5.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="7.500 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="15.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="30.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="60.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="125.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="250.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deded"
+            android:text="1.000.000 TL"
+            app:backgroundTint="#000000"
+            app:backgroundTintMode="screen" />
+    </LinearLayout>
+
+
+</RelativeLayout>

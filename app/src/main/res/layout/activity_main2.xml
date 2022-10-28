@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oo"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/money" />
+
+        <TextView
+            android:id="@+id/paraciklar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="0 TL">
+
+        </TextView>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+        android:layout_marginTop="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/topsurem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="0dk">
+
+        </TextView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/lll"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingClass,MissingConstraints"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBasla"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/redbtn"
+            android:fontFamily="casual"
+            android:text="Oyunu Başlat"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/btn_ayarlar"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/redbtn"
+            android:layout_marginTop="5dp"
+            android:text="mİLYONERLER"
+            android:fontFamily="casual"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/btnnasil"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/redbtn"
+            android:layout_marginTop="5dp"
+            android:text="nasıl oynanır"
+            android:fontFamily="casual"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTintMode="screen"
+            />
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/redbtn"
+            android:layout_marginTop="5dp"
+            android:text="admin giriş"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            app:backgroundTintMode="screen" />
+        <Button
+            android:id="@+id/btnCikis"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/redbtn"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:text="çıkış yap"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTintMode="screen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

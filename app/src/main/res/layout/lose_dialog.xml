@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:background="@drawable/win_style">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elendiniz!"
+            android:textColor="#FF0707"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="268dp"
+            android:layout_height="226dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/lose" />
+
+
+        <TextView
+            android:id="@+id/txtparam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/imageView6"
+            android:text="Kazandığınız Para :" />
+
+        <TextView
+            android:id="@+id/txtsonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/txtparam"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_tamam"
+            android:layout_width="184dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn_style"
+            android:gravity="center"
+            android:text="tamam"
+            app:backgroundTint="#FF0707" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
